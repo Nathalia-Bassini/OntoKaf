@@ -8,8 +8,6 @@ informacoes = cliente.list_topics(timeout=5)
 #objeto cliente solicita informações sobre os tópicos existentes no Kafka.
 #espera até 5 segundos pela resposta.
 #informacoes é objeto que conterem dados sobre tópicos e outras informações do cluster.
-for nome in informacoes.topics:
-    print(" -", nome)
     
 
 
